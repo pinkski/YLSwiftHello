@@ -60,7 +60,10 @@ var opStr:String? = "Hello"
 
 print("this is \(opStr)")
 
-var count:Int?
+var count:Int? = 99
+
+var i:Int = count!
+
 
 if let validCount = count {
     validCount
